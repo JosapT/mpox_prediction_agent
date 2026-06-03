@@ -1,0 +1,2 @@
+threshold,accuracy,balanced_accuracy,macro_f1,weighted_f1,class_0_recall,class_1_recall,roc_auc,pr_auc,experiment,smote_ratio,class_0_weight,class_1_weight,embed_dim,num_heads,num_layers,dropout,learning_rate,weight_decay
+0.4900000000000002,0.6794,0.6449574718628368,0.647178646327253,0.6762652951754509,0.5187018701870187,0.771213073538655,0.7024950923753595,0.7851456734257585,smote=0.8_class0=1.25_class1=1.0,0.8,1.25,1.0,32,4,2,0.2,0.001,0.0001
