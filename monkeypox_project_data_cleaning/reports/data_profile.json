@@ -1,0 +1,44 @@
+{
+  "raw_shape": [
+    25000,
+    11
+  ],
+  "clean_shape": [
+    25000,
+    11
+  ],
+  "model_ready_shape": [
+    25000,
+    13
+  ],
+  "target_column": "monkeypox",
+  "target_mapping": {
+    "Negative": 0,
+    "Positive": 1
+  },
+  "class_counts": {
+    "0": 9091,
+    "1": 15909
+  },
+  "missing_values_raw": {
+    "Patient_ID": 0,
+    "Systemic Illness": 6216,
+    "Rectal Pain": 0,
+    "Sore Throat": 0,
+    "Penile Oedema": 0,
+    "Oral Lesions": 0,
+    "Solitary Lesion": 0,
+    "Swollen Tonsils": 0,
+    "HIV Infection": 0,
+    "Sexually Transmitted Infection": 0,
+    "MonkeyPox": 0
+  },
+  "duplicates_raw": 0,
+  "split": {
+    "train_rows": 20000,
+    "test_rows": 5000,
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratified_by": "monkeypox"
+  }
+}
